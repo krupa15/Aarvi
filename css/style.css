@@ -12271,6 +12271,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 30px;
 }
 
+.border_contact {
+  border: 1px dotted dodgerblue !important;
+}
+
 .text_box input[type="text"], .text_box textarea, .text_box input[type="password"], .text_box input[type="email"] {
   font: 400 15px/60px "Poppins", sans-serif;
   color: #222d39;

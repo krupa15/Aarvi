@@ -3473,7 +3473,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*============= app_banner_area css ===========*/
 .app_banner_area {
-  background: url(../img/home7/banner.png) no-repeat scroll center 100%;
+  background: url(../img/ownadd/banner8.png) no-repeat scroll center 100%;
   padding-top: 230px;
   padding-bottom: 210px;
   overflow: hidden;
@@ -22827,7 +22827,8 @@ a .h_head:hover {
 }
 
 .payment_footer_area {
-  background: linear-gradient(to top left , #8a2be1 40%,rgba(255, 139, 0, 0.7) 100%);
+  /*background: linear-gradient(to top left , #8a2be1 40%,rgba(255, 139, 0, 0.7) 100%);*/
+  background: url(../img/ownadd/bannerrev2.png) no-repeat scroll center 100%;
   border: 0px;
   padding: 220px 0px 100px;
 }

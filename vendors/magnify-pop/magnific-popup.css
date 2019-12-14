@@ -179,6 +179,7 @@ button::-moz-focus-inner {
   width: 100%; }
 
 .mfp-counter {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;

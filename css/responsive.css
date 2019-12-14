@@ -1681,6 +1681,7 @@
     }
     .payment_clients_area{
         padding-top: 0px;
+        padding-bottom: 30px;
     }
     .payment_testimonial_area{
         padding-top: 50px;
@@ -2450,7 +2451,7 @@
         padding: 50px 20px;
     }
     .sec_pad,.prototype_service_info{
-        padding: 70px 0px;
+        padding: 20px 0px;
     }
     .sec_title.mb_70{
         margin-bottom: 50px

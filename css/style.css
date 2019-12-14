@@ -243,9 +243,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #bdbed6;
 }
 
-.bg_color {
+/*.bg_color {
   background: #fbfbfd;
-}
+}*/
 
 .dk_bg_one {
   background: #090a21;
@@ -384,7 +384,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .sec_pad {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 /*====================================================*/
@@ -7779,7 +7779,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*============= stratup_service_area css =============*/
 /*============= progress_bar_area css =============*/
 .progress_bar_area {
-  padding-top: 120px;
+  padding-top: 20px;
 }
 
 .progress_bar_area .br_bottom {
@@ -9653,9 +9653,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   overflow: hidden;
 }
 
-.fun_fact_area_two {
+/*.fun_fact_area_two {
   background: #f7f6fa;
-}
+}*/
 
 .fun_fact_content h1 {
   font-size: 60px;
@@ -9692,7 +9692,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .fact_author_img img {
-  margin-top: -70px;
+  margin-top: -170px;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -10314,8 +10314,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 /*=============== payment_clients_area  css =============*/
 .payment_clients_area {
-  background: #fafbff;
-  padding: 130px 0px;
+  /*background: #fafbff;*/
+  padding-top: 50px;
+  padding-bottom: 170px;
   position: relative;
 }
 

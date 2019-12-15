@@ -10,6 +10,28 @@
     z-index: 1;
     position: relative;
 }
+.about_us_one {
+    bottom: 300px !important;
+    transform: rotate(585deg) !important;
+}
+.about_us_two {
+    bottom: 362px !important;
+    transform: rotate(585deg) !important;
+}
+.about_us_three {
+    transform: rotate(130deg) !important;
+    bottom: 60px !important;
+    left: -400px !important;
+}
+.about_us_four {
+    transform: rotate(130deg) !important;
+    left: -300px !important;
+}
+@media(max-width:770px) {
+    .about_us_one, .about_us_two, .about_us_three, .about_us_four {
+        display: none;
+    }
+}
 @media (min-width:2000px){
     .call_action_area .action_one{
         left: 40px;

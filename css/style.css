@@ -5736,9 +5736,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .square_box.box_one {
-  background-image: -moz-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
-  background-image: -webkit-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
-  background-image: -ms-linear-gradient(140deg, #290a59 0%, #3d57f4 100%);
+  background-image: -moz-linear-gradient(140deg, #290a59 0%, #8A2BE1 100%);
+  background-image: -webkit-linear-gradient(140deg, #290a59 0%, #8A2BE1 100%);
+  background-image: -ms-linear-gradient(140deg, #290a59 0%, #8A2BE1 100%);
   width: 382px;
   height: 382px;
   bottom: -191px;
@@ -5746,9 +5746,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .square_box.box_two {
-  background-image: -moz-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
-  background-image: -webkit-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
-  background-image: -ms-linear-gradient(140deg, #3c0f73 0%, #bc2280 100%);
+  background-image: -moz-linear-gradient(140deg, #3c0f73 0%, #ff8000 100%);
+  background-image: -webkit-linear-gradient(140deg, #3c0f73 0%, #ff8000 100%);
+  background-image: -ms-linear-gradient(140deg, #3c0f73 0%, #ff8000 100%);
   width: 235px;
   height: 235px;
   bottom: -116px;
@@ -9661,7 +9661,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*============= fun_fact_area  css ==============*/
 .fun_fact_area {
   padding-top: 150px;
-  padding-bottom: 110px;
+  padding-bottom: 150px;
   overflow: hidden;
 }
 

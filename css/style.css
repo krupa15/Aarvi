@@ -307,7 +307,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   margin-bottom: 30px;
 }
 
-.mb_40 {
+.mb-40 {
   margin-bottom: 40px;
 }
 
@@ -5746,9 +5746,9 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .square_box.box_two {
-  background-image: -moz-linear-gradient(140deg, #3c0f73 0%, #ff8000 100%);
-  background-image: -webkit-linear-gradient(140deg, #3c0f73 0%, #ff8000 100%);
-  background-image: -ms-linear-gradient(140deg, #3c0f73 0%, #ff8000 100%);
+  background-image: -moz-linear-gradient(140deg, #3c0f73 0%, #ff8b00 100%);
+  background-image: -webkit-linear-gradient(140deg, #3c0f73 0%, #ff8b00 100%);
+  background-image: -ms-linear-gradient(140deg, #3c0f73 0%, #ff8b00 100%);
   width: 235px;
   height: 235px;
   bottom: -116px;
@@ -10315,7 +10315,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .payment_clients_area {
   /*background: #fafbff;*/
   padding-top: 50px;
-  padding-bottom: 170px;
+  padding-bottom: 250px;
   position: relative;
 }
 
@@ -14078,7 +14078,7 @@ p span {
 .blog_single .blockquote {
   color: #5e2ced;
   font-style: italic;
-  border-left: 4px solid #5e2ced;
+  border-left: 4px solid #8A2BE1;
   padding-left: 35px;
 }
 

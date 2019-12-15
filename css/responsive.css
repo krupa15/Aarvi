@@ -6,12 +6,8 @@
     border-radius: 10px;
     box-shadow: 5px 5px 15px #ab9ee1;
 }
-.tri_add {
-    z-index: 1;
-    position: relative;
-}
 .about_us_one {
-    bottom: 300px !important;
+    bottom: 310px !important;
     transform: rotate(585deg) !important;
 }
 .about_us_two {
@@ -27,6 +23,14 @@
     transform: rotate(130deg) !important;
     left: -300px !important;
 }
+/*.about_us_five {
+    bottom: -400px !important;
+    left: 250px !important;
+}
+.about_us_six {
+    bottom: -300px !important;
+    left: 100px !important;
+}*/
 @media(max-width:770px) {
     .about_us_one, .about_us_two, .about_us_three, .about_us_four {
         display: none;

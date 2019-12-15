@@ -5892,19 +5892,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   -ms-transform: rotate(-36deg);
   transform: rotate(-36deg);
 }
-.triangle_shape1 {
-  position: absolute;
-  z-index: -2;
-  height: 161%;
-  width: 149%;
-  background: #f3ebff;
-  bottom: -400px;
-  right: -7%;
-  -webkit-transform: rotate(-36deg);
-  -ms-transform: rotate(-36deg);
-  transform: rotate(-36deg);
-}
-
 .app_featured_content {
   padding: 50px 100px 90px 0;
 }

@@ -5,7 +5,14 @@
 #news {
     color: #fff;
     font-size: 12px;
-    text-align: justify;;
+    text-align: justify;
+}
+#justifyProcess {
+    text-align: justify;
+    margin-top: 15px;
+}
+#imgAlphabet {
+    padding:20px;
 }
 .img_ss {
     border-radius: 10px;

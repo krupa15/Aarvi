@@ -1,27 +1,35 @@
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password);
-
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-//echo "Connected successfully";
+<?php  
+$host = 'localhost';  
+$user = 'root';  
+$pass = '';  
+$dbname = 'aarvi'; 
 
 $name = $_POST['name'];
 $email = $_POST['email'];
 $sub = $_POST['subject'];
 $msg = $_POST['message'];
+  
+$conn = mysqli_connect($host, $user, $pass,$dbname);  
+if(!$conn){  
+  die('Could not connect: '.mysqli_connect_error());  
+}  
+//echo 'Connected successfully<br/>';  
+  
+$sql = "INSERT INTO contact(name,email,subject,message) VALUES ('$name','$email','$sub','$msg')";
 
-$query = mysql_query("insert into contact(name, email, subject, message) values ('$name', '$email', '$sub', '$msg')");
-echo "<br/><br/><span>Data Inserted successfully...!!</span>";
+if($name != '' && $email != '' && $sub != '' && $msg != ''){
+	if(mysqli_query($conn, $sql)){  
+ 	//echo "Record inserted successfully";  
+	header( 'Location: http://localhost/Aarvi/' );
+	alert("Message sent successfully!");
+	}else{  
+		echo "Could not insert record: ". mysqli_error($conn);  
+	} 
+} 
+else {
+	header( 'Location: http://localhost/Aarvi/' );
+	alert("Enter data!");
 }
-else{
-echo "<p>Insertion Failed <br/> Some Fields are Blank....!!</p>";
-}
-
+  
+mysqli_close($conn);  
 ?>

@@ -69,6 +69,73 @@
         display: none;
     }
 }
+@media (min-width: 310px) and (max-width: 370px) {
+    #cssLogo {
+        top: -70px !important;
+        left: 10px !important;
+    }
+    #htmlLogo {
+        top: -70px !important;
+        left: 160px !important;
+    }
+    #bsLogo {
+        top: 270px !important;
+        left: 60px !important;
+    }
+    #phpLogo {
+        top: 100px !important;
+        left: 170px !important;
+    }
+    #jsLogo {
+        top: 100px !important;
+        left: 10px !important;
+    }
+}
+@media (min-width: 371px) and (max-width: 380px) {
+    #cssLogo {
+        top: -70px !important;
+        left: 30px !important;
+    }
+    #htmlLogo {
+        top: -70px !important;
+        left: 195px !important;
+    }
+    #bsLogo {
+        top: 260px !important;
+        left: 80px !important;
+    }
+    #phpLogo {
+        top: 90px !important;
+        left: 200px !important;
+    }
+    #jsLogo {
+        top: 90px !important;
+        left: 30px !important;
+    }
+}
+@media (min-width: 390px) and (max-width: 430px) {
+    #cssLogo {
+        top: -80px !important;
+        left: 50px !important;
+    }
+    #htmlLogo {
+        top: -80px !important;
+        left: 225px !important;
+    }
+    #bsLogo {
+        top: 250px !important;
+        left: 110px !important;
+    }
+    #phpLogo {
+        top: 80px !important;
+        left: 230px !important;
+    }
+    #jsLogo {
+        top: 80px !important;
+        left: 45px !important;
+    }
+}
+
 @media (min-width:2000px){
     .call_action_area .action_one{
         left: 40px;
@@ -3201,7 +3268,7 @@
         left: 0;
     }
     .payment_clients_area .payment_clients_inner {
-        height: 690px;
+        /*height: 690px;*/
     }
     .agency_featured_area {
         padding-top: 80px;

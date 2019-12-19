@@ -2,6 +2,20 @@
     background-image:-webkit-linear-gradient(left, rgba(138, 43, 255, 0.7), rgba(255, 139, 0, 0.5) 40%, rgba(138, 43, 255, 0.7)); 
 }
 */
+#headImg {
+    width: 130px;
+    height: auto;
+}
+#headImg2 {
+    width: 90px;
+    height: auto;
+}
+#footerImg {
+    width: 130px;
+    height: auto;
+    margin: -50px;
+    margin-left: 0px;
+}
 #aboutus_img {
     width: 600px;
     height: 300px;
@@ -77,6 +91,14 @@
 @media(max-width:770px) {
     .about_us_one, .about_us_two, .about_us_three, .about_us_four, .about_us_five, .about_us_six, .about_us_seven, .about_us_eight, .about_us_nine, .about_us_ten {
         display: none;
+    }
+    #headImg {
+    width: 90px;
+    height: auto;
+    }
+    #headImg2, #headImg {
+        margin: -30px;
+        margin-left: 0px;
     }
 }
 @media (min-width: 310px) and (max-width: 370px) {

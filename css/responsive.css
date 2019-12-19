@@ -2,6 +2,11 @@
     background-image:-webkit-linear-gradient(left, rgba(138, 43, 255, 0.7), rgba(255, 139, 0, 0.5) 40%, rgba(138, 43, 255, 0.7)); 
 }
 */
+#aboutus_img {
+    width: 600px;
+    height: 300px;
+    margin-top: 0px;
+}
 #news {
     color: #fff;
     font-size: 12px;
@@ -12,7 +17,10 @@
     margin-top: 15px;
 }
 #imgAlphabet {
-    padding:20px;
+    margin: -50px;
+    margin-top: 0px;
+    width: 180px;
+    height: auto;
 }
 .img_ss {
     border-radius: 10px;
@@ -90,6 +98,10 @@
         top: 100px !important;
         left: 10px !important;
     }
+    #aboutus_img {
+        width: 290px !important;
+        height: auto !important;
+    }
 }
 @media (min-width: 371px) and (max-width: 380px) {
     #cssLogo {
@@ -111,6 +123,10 @@
     #jsLogo {
         top: 90px !important;
         left: 30px !important;
+    }
+    #aboutus_img {
+        width: 345px !important;
+        height: auto !important;
     }
 }
 @media (min-width: 390px) and (max-width: 430px) {
@@ -134,8 +150,16 @@
         top: 80px !important;
         left: 45px !important;
     }
+    #aboutus_img {
+        width: 400px !important;
+        height: auto !important;
+    }
 }
-
+@media (max-width: 450px) {
+    .fun_fact_area {
+        padding: 0px !important;
+    }
+}
 @media (min-width:2000px){
     .call_action_area .action_one{
         left: 40px;
@@ -2565,7 +2589,7 @@
     }
     .agency_featured_item .agency_featured_content{
         padding-left: 0;
-        margin-top: 50px;
+        margin-top: -20px;
     }
     .action_area_three:before{
         background-size: contain;
